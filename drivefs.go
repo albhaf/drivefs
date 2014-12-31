@@ -6,15 +6,16 @@ All rights reserved.
 package main
 
 import (
-	"bazil.org/fuse/fs/fstestutil"
-	"code.google.com/p/goauth2/oauth"
-	drive "code.google.com/p/google-api-go-client/drive/v2"
 	"flag"
-	"github.com/S2Games/drivefs/lib"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"bazil.org/fuse/fs/fstestutil"
+	"code.google.com/p/goauth2/oauth"
+	drive "code.google.com/p/google-api-go-client/drive/v2"
+	"github.com/S2Games/drivefs/lib"
 )
 
 // Collect command line arguments for OAUTH and mounting options

@@ -1,12 +1,13 @@
 package lib
 
 import (
+	"log"
+	"time"
+
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
 	"code.google.com/p/goauth2/oauth"
 	drive "code.google.com/p/google-api-go-client/drive/v2"
-	"log"
-	"time"
 )
 
 // DriveFs is a struct which holds the FUSE filesystem

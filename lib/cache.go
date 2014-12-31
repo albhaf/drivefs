@@ -1,10 +1,11 @@
 package lib
 
 import (
-	drive "code.google.com/p/google-api-go-client/drive/v2"
 	"log"
 	"strings"
 	"sync"
+
+	drive "code.google.com/p/google-api-go-client/drive/v2"
 )
 
 // refreshFileIndex refreshes the id -> DriveFile pairs it retrieves from the drive api

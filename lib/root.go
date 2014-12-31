@@ -1,9 +1,10 @@
 package lib
 
 import (
+	"log"
+
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"log"
 )
 
 // Root represents the root of the filesystem

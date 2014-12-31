@@ -1,15 +1,16 @@
 package lib
 
 import (
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	drive "code.google.com/p/google-api-go-client/drive/v2"
 	"log"
 	"os"
 	"strings"
 	"sync"
 	"syscall"
 	"time"
+
+	"bazil.org/fuse"
+	"bazil.org/fuse/fs"
+	drive "code.google.com/p/google-api-go-client/drive/v2"
 )
 
 // DriveDir represents a directory in google drive
