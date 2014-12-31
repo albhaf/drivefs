@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
+	"bazil.org/fuse"
 )
 
 type flagDebug bool

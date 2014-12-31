@@ -1,7 +1,7 @@
 package fuseutil // import "bazil.org/fuse/fuseutil"
 
 import (
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
+	"bazil.org/fuse"
 )
 
 // HandleRead handles a read request assuming that data is the entire file content.

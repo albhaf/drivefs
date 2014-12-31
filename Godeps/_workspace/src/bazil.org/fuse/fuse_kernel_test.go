@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
+	"bazil.org/fuse"
 )
 
 func TestOpenFlagsAccmodeMask(t *testing.T) {

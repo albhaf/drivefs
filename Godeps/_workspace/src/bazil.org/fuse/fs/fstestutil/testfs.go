@@ -3,8 +3,8 @@ package fstestutil
 import (
 	"os"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs"
+	"bazil.org/fuse"
+	"bazil.org/fuse/fs"
 )
 
 // SimpleFS is a trivial FS that just implements the Root method.

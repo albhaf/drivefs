@@ -9,7 +9,7 @@ import (
 )
 
 import (
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
+	"bazil.org/fuse"
 )
 
 // A Tree implements a basic read-only directory tree for FUSE.

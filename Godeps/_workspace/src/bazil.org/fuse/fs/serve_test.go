@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil/record"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fuseutil"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/syscallx"
+	"bazil.org/fuse"
+	"bazil.org/fuse/fs"
+	"bazil.org/fuse/fs/fstestutil"
+	"bazil.org/fuse/fs/fstestutil/record"
+	"bazil.org/fuse/fuseutil"
+	"bazil.org/fuse/syscallx"
 )
 
 // TO TEST:

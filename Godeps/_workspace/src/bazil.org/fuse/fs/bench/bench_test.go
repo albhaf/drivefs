@@ -7,9 +7,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
+	"bazil.org/fuse"
+	"bazil.org/fuse/fs"
+	"bazil.org/fuse/fs/fstestutil"
 )
 
 type benchConfig struct {

@@ -14,8 +14,8 @@ import (
 )
 
 import (
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fuseutil"
+	"bazil.org/fuse"
+	"bazil.org/fuse/fuseutil"
 )
 
 const (

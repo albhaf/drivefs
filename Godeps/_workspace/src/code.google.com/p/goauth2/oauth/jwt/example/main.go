@@ -16,7 +16,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/code.google.com/p/goauth2/oauth/jwt"
+	"code.google.com/p/goauth2/oauth/jwt"
 )
 
 const scope = "https://www.googleapis.com/auth/devstorage.read_only"

@@ -11,7 +11,7 @@ package drive
 
 import (
 	"bytes"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi"
+	"code.google.com/p/google-api-go-client/googleapi"
 	"encoding/json"
 	"errors"
 	"fmt"

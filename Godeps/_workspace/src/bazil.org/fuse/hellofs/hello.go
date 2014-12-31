@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	_ "github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
+	"bazil.org/fuse"
+	"bazil.org/fuse/fs"
+	_ "bazil.org/fuse/fs/fstestutil"
 )
 
 var Usage = func() {

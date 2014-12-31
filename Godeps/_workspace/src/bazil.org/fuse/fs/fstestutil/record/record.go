@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/S2Games/drivefs/Godeps/_workspace/src/bazil.org/fuse/fs"
+	"bazil.org/fuse"
+	"bazil.org/fuse/fs"
 )
 
 // Writes gathers data from FUSE Write calls.
